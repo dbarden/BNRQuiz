@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E49C4E15B805ED0044D45D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E49C4D15B805ED0044D45D /* UIKit.framework */; };
+		D0E49C5015B805ED0044D45D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E49C4F15B805ED0044D45D /* Foundation.framework */; };
+		D0E49C5215B805ED0044D45D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E49C5115B805ED0044D45D /* CoreGraphics.framework */; };
+		D0E49C5815B805EE0044D45D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E49C5615B805EE0044D45D /* InfoPlist.strings */; };
+		D0E49C5A15B805EE0044D45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E49C5915B805EE0044D45D /* main.m */; };
+		D0E49C5E15B805EE0044D45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E49C5D15B805EE0044D45D /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0E49C4915B805ED0044D45D /* BNRQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNRQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E49C4D15B805ED0044D45D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0E49C4F15B805ED0044D45D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0E49C5115B805ED0044D45D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0E49C5515B805EE0044D45D /* BNRQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNRQuiz-Info.plist"; sourceTree = "<group>"; };
+		D0E49C5715B805EE0044D45D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0E49C5915B805EE0044D45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E49C5B15B805EE0044D45D /* BNRQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNRQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		D0E49C5C15B805EE0044D45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E49C5D15B805EE0044D45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E49C4615B805ED0044D45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E49C4E15B805ED0044D45D /* UIKit.framework in Frameworks */,
+				D0E49C5015B805ED0044D45D /* Foundation.framework in Frameworks */,
+				D0E49C5215B805ED0044D45D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E49C3E15B805ED0044D45D = {
+			isa = PBXGroup;
+			children = (
+				D0E49C5315B805EE0044D45D /* BNRQuiz */,
+				D0E49C4C15B805ED0044D45D /* Frameworks */,
+				D0E49C4A15B805ED0044D45D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E49C4A15B805ED0044D45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E49C4915B805ED0044D45D /* BNRQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E49C4C15B805ED0044D45D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E49C4D15B805ED0044D45D /* UIKit.framework */,
+				D0E49C4F15B805ED0044D45D /* Foundation.framework */,
+				D0E49C5115B805ED0044D45D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E49C5315B805EE0044D45D /* BNRQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				D0E49C5C15B805EE0044D45D /* AppDelegate.h */,
+				D0E49C5D15B805EE0044D45D /* AppDelegate.m */,
+				D0E49C5415B805EE0044D45D /* Supporting Files */,
+			);
+			path = BNRQuiz;
+			sourceTree = "<group>";
+		};
+		D0E49C5415B805EE0044D45D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E49C5515B805EE0044D45D /* BNRQuiz-Info.plist */,
+				D0E49C5615B805EE0044D45D /* InfoPlist.strings */,
+				D0E49C5915B805EE0044D45D /* main.m */,
+				D0E49C5B15B805EE0044D45D /* BNRQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E49C4815B805ED0044D45D /* BNRQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E49C6115B805EE0044D45D /* Build configuration list for PBXNativeTarget "BNRQuiz" */;
+			buildPhases = (
+				D0E49C4515B805ED0044D45D /* Sources */,
+				D0E49C4615B805ED0044D45D /* Frameworks */,
+				D0E49C4715B805ED0044D45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNRQuiz;
+			productName = BNRQuiz;
+			productReference = D0E49C4915B805ED0044D45D /* BNRQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E49C4015B805ED0044D45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Barden";
+			};
+			buildConfigurationList = D0E49C4315B805ED0044D45D /* Build configuration list for PBXProject "BNRQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0E49C3E15B805ED0044D45D;
+			productRefGroup = D0E49C4A15B805ED0044D45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E49C4815B805ED0044D45D /* BNRQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E49C4715B805ED0044D45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E49C5815B805EE0044D45D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E49C4515B805ED0044D45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E49C5A15B805EE0044D45D /* main.m in Sources */,
+				D0E49C5E15B805EE0044D45D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0E49C5615B805EE0044D45D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E49C5715B805EE0044D45D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E49C5F15B805EE0044D45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E49C6015B805EE0044D45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E49C6215B805EE0044D45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNRQuiz/BNRQuiz-Prefix.pch";
+				INFOPLIST_FILE = "BNRQuiz/BNRQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0E49C6315B805EE0044D45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNRQuiz/BNRQuiz-Prefix.pch";
+				INFOPLIST_FILE = "BNRQuiz/BNRQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E49C4315B805ED0044D45D /* Build configuration list for PBXProject "BNRQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E49C5F15B805EE0044D45D /* Debug */,
+				D0E49C6015B805EE0044D45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E49C6115B805EE0044D45D /* Build configuration list for PBXNativeTarget "BNRQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E49C6215B805EE0044D45D /* Debug */,
+				D0E49C6315B805EE0044D45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E49C4015B805ED0044D45D /* Project object */;
+}
